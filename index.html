@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorteo Reina Amira</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f1cd01, #dbe2ef);
+      color: #112d4e;
+      line-height: 1.6;
+    }
+
+    /* Hero Banner */
+    header {
+      background: url('https://via.placeholder.com/1200x400?text=Reina+Amira+Giveaway+Banner') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: silver;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      font-style: italic;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+
+    /* Sections */
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #ebdb04;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #3f72af;
+      border-bottom: 2px solid #dbe2ef;
+      padding-bottom: 5px;
+    }
+
+    /* Prize images */
+    .prize {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .prize img {
+      width: 200px;
+      border-radius: 8px;
+    }
+
+    /* Countdown */
+    #countdown {
+      font-size: 1.5em;
+      color: #d32f2f;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    /* Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    button {
+      padding: 12px;
+      background-color: #3f72af;
+      color: #e9d209;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #112d4e;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #3f72af;
+      color: rgb(219, 223, 16);
+    }
+    footer a {
+      color: #ffd700;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Banner -->
+  <header>
+    <h1>Sorteo Reina Amira</h1>
+  </header>
+
+  <!-- Countdown -->
+  <div id="countdown">El sorteo termina en: 10 días</div>
+
+  <!-- Houses Section -->
+  <section style="background: linear-gradient(to right, #f0f8ff, gold); padding:20px;">
+    <a href="Houses.html"><h2>🏠 Casas</h2></a>
+    <div class="prize">
+      <a href="Houses.html">
+        <img src="house01.jpg.jpeg" alt="Premio Casa">
+      </a>
+      <p style="font-weight:bold;">
+        Gana una lujosa casa de ensueño de la colección de sorteos de Queen Amira.
+      </p>
+    </div>
+  </section>
+
+  <!-- Home Appliances Section -->
+  <section style="background: linear-gradient(to right, #f0f8ff, gold); padding:20px;">
+    <a href="Appliances.html"><h2>🏠 Electrodomésticos</h2></a>
+    <div class="prize">
+      <a href="Appliances.html">
+        <img src="Appliances02..jpeg" alt="Electrodomésticos">
+      </a>
+      <p style="font-weight:bold;">
+        Electrodomésticos esenciales para la comodidad diaria.
+      </p>
+    </div>
+  </section>
+
+  <!-- Cash Section -->
+  <section style="background: linear-gradient(to right, #f0f8ff, gold); padding:20px;">
+    <a href="Cash.html"><h2>💰 Dinero</h2></a>
+    <div class="prize">
+      <a href="Cash.html">
+        <img src="cash01.jpg.jpeg" alt="Premio en efectivo">
+      </a>
+      <p style="font-weight:bold;">
+        Obtén premios en efectivo al instante para hacer realidad tus sueños.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section>
+    <h2>❓ Preguntas Frecuentes</h2>
+    <p><strong>¿Cómo participo?</strong> Completa el formulario a continuación con tus datos.</p>
+    <p><strong>¿Cuándo se anunciarán los ganadores?</strong> Los ganadores se anunciarán al final de la cuenta regresiva.</p>
+    <p><strong>¿Quién puede participar?</strong> Cualquier persona mayor de 18 años en todo el mundo.</p>
+  </section>
+
+ 
+
+  <!-- Footer -->
+  <footer>
+    <p>Sigue a Queen Amira en redes sociales:</p>
+    <a href="#">Instagram</a> | 
+    <a href="#">Facebook</a> | 
+    <a href="#">TikTok</a>
+  </footer>
+
+</body>
+</html>
